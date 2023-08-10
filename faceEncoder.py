@@ -54,3 +54,8 @@ def compareFace(img_encodings, test_img_encode, tol=0.1):
 
     return False
 
+if __name__ == "__main__":
+
+    x= input("How many photos are in the 'yourfaces' folder?: " )
+
+    encode_faces(int(x))
